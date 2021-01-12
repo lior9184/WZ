@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import static com.example.wz.R.id.btn2plus;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button btn;
@@ -16,7 +18,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btn = findViewById(R.id.btn);
         tv = findViewById(R.id.tv);
         btn.setOnClickListener(this);
 
