@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
+    tools:context=".RegisterActivity"
     android:background="#79B3ED"
 
     tools:ignore="ExtraText">
@@ -23,19 +23,42 @@
         android:background="@color/cardview_light_background"
         />
 
-    <Button
-        android:id="@+id/signin"
+    <EditText
+        android:id="@+id/edit_textusername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="45dp"
-        android:text="התחברות"
-        android:textSize="20dp"
+        android:layout_marginTop="180dp"
+        android:hint="שם משתמש:"
+        android:paddingLeft="100dp"
+        android:textSize="18dp"
+        />
 
+    <EditText
+        android:id="@+id/edit_textpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:hint="סיסמא:"
+        android:paddingLeft="100dp"
+        android:textSize="18dp"
+        tools:ignore="InvalidId"
+        />
+    <EditText
+        android:id="@+id/edit_textconfirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:hint="אימות סיסמא:"
+        android:paddingLeft="100dp"
+        android:textSize="18dp"
+        tools:ignore="InvalidId"
         />
 
     <Button
-        android:id="@+id/signup"
+        android:id="@+id/btn4plus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
