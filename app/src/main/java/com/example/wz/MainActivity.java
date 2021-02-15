@@ -37,6 +37,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         }
 
+            if (v == btnup)
+            {
+                Intent intent=new Intent(this,RegisterActivity.class);
+                startActivity(intent);
+            }
 
 
     }
